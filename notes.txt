@@ -1,13 +1,35 @@
+start script and watcher
+
 package.json/scripts
-run error - have to "start":"node <folder/file>" - have to use node, else windows will use other runtime
-nodemon as devdependencies . add D flag "npm i -D <package> - nodemon is a package watcher, no need to keep restarting server, saving will trigger nodemon
+error - "microsoft jscript compilation error 800a03ea", is a runtime error
+run error - under scripts, "start":"node <folder/file>" add 'node' in front so file is run by node not windows
+
+nodemon is a package watcher. add nodemon as devdependencies -D flag when installing
+no need to keep restarting server, saving will trigger nodemon
 
 
+
+
+routing
 index.js
-file structure - many html, many css
+server file, npm start runs this file
+
+there are multiple html,css files under /public
+each html file will recognised because express static will turn all the .html files into <url>/file.html
+
 do not use express.res.sendFile
-use express app.use, express.static <static folder, by convention /public>
-__dirname undefined - to get directory name in nodejs, const __dirname = path.resolve(path.dirname(''));
+use express.static instead under app.use
+in case of __dirname undefined - to get directory name in nodejs, const __dirname = path.resolve(path.dirname(''));
+
+
+
+
+font awesome icons
+go cdnjs to copy the cdn link 
+add it under link stylesheet
+remember to all for all html file header
+
+
 
 git commands
 
@@ -28,7 +50,7 @@ git push origin <branch>
 updating file:
 git commit . -m "<msg>"
 
-cloning from remote to local
+cloning from remote to local folder and then pushing changes
 --within local folder
 git init
 git clone <url>
