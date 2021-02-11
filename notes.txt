@@ -16,3 +16,6 @@ remove remote repo = git remote rm origin <url>
 vs code > git >remote>remove remote>orign
 check remote repo added correctly - git remove -v
 pushing updates
+
+downloading remote repo into local
+git clone <url>
