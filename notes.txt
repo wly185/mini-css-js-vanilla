@@ -32,6 +32,7 @@ cloning from remote to local
 --within local folder
 git init
 git clone <url>
+cd into the cloned folder
 git commit . -m "<msg>"
 git add remote origin <url>
 git fetch origin
