@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.item1 {
+  background-color: blue;
+}
+
+.item2 {
+  background-color: brown;
+}
+
+.outer {
+  background-color: green;
+}
+
+.inner {
+  background-color: hotpink;
+}
+
+.outer {
+  display: grid;
+  padding: 1em;
+}
+
+.inner {
+  display: grid;
+  padding: 1em;
+}
+
+.item1,
+.item2 {
+  padding: 1em;
+}

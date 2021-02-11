@@ -1,0 +1,16 @@
+package.json/scripts
+run error - have to "start":"node <folder/file>" - have to use node, else windows will use other runtime
+nodemon as devdependencies . add D flag "npm i -D <package> - nodemon is a package watcher, no need to keep restarting server, saving will trigger nodemon
+
+
+index.js
+file structure - many html, many css
+do not use express.res.sendFile
+use express app.use, express.static <static folder, by convention /public>
+__dirname undefined - to get directory name in nodejs, const __dirname = path.resolve(path.dirname(''));
+
+git commands
+create .git - git.init
+add remote repo - git remote add origin <url>
+vs code > git >remote>remove remote>orign
+check remote repo added correctly - git remove -v
