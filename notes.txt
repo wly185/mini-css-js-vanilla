@@ -10,12 +10,25 @@ use express app.use, express.static <static folder, by convention /public>
 __dirname undefined - to get directory name in nodejs, const __dirname = path.resolve(path.dirname(''));
 
 git commands
-create .git - git.init
-add remote repo - git remote add origin <url>
-remove remote repo = git remote rm origin <url>
-vs code > git >remote>remove remote>orign
-check remote repo added correctly - git remove -v
-pushing updates
 
-downloading remote repo into local
+inital upload
+
+git init
+--create github repo, copy the url
+git commit . -m '<msg>'
+git remote add orgin <url>
+git checkout -b <branch>
+git push origin <branch>
+
+deleting folder
+git checkout <branch>
+git rm -r <folder>
+git commit . -m '<msg>'
+git push origin <branch>
+
+updating file
+git commit . -m "<msg>"
+
+cloning from remote to local
+--within local folder
 git clone <url>
