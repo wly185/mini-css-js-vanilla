@@ -14,3 +14,4 @@ create .git - git.init
 add remote repo - git remote add origin <url>
 vs code > git >remote>remove remote>orign
 check remote repo added correctly - git remove -v
+pushing updates
