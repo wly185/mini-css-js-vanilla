@@ -11,8 +11,7 @@ __dirname undefined - to get directory name in nodejs, const __dirname = path.re
 
 git commands
 
-inital upload
-
+inital upload:
 git init
 --create github repo, copy the url
 git commit . -m '<msg>'
@@ -20,15 +19,20 @@ git remote add orgin <url>
 git checkout -b <branch>
 git push origin <branch>
 
-deleting folder
+deleting folder:
 git checkout <branch>
 git rm -r <folder>
 git commit . -m '<msg>'
 git push origin <branch>
 
-updating file
+updating file:
 git commit . -m "<msg>"
 
 cloning from remote to local
 --within local folder
+git init
 git clone <url>
+git commit . -m "<msg>"
+git add remote origin <url>
+git fetch origin
+git push origin <branch>
