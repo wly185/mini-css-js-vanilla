@@ -12,6 +12,7 @@ __dirname undefined - to get directory name in nodejs, const __dirname = path.re
 git commands
 create .git - git.init
 add remote repo - git remote add origin <url>
+remove remote repo = git remote rm origin <url>
 vs code > git >remote>remove remote>orign
 check remote repo added correctly - git remove -v
 pushing updates
